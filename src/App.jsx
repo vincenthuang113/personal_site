@@ -9,7 +9,7 @@ import 'aos/dist/aos.css';
 import './css/style.css';
 
 import AOS from 'aos';
-
+import ScrollButton from './partials/ScrollButton';
 import Home from './pages/Home';
 
 function App() {
@@ -36,6 +36,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
       </Routes>
+      <ScrollButton/>
     </>
   );
 }

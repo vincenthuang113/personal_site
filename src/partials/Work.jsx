@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link as AnLink, animateScroll as scroll } from 'react-scroll';
 import me from '../images/medraw.png';
-
+import arrow1 from '../images/a.png'
 import '../css/general.css'
 
 function Work() {
@@ -40,7 +40,8 @@ function Work() {
             <h1 id='bbhinfo'>Brown Brothers Harriman<br/><span style={{fontWeight:'500', fontSize:'1.5vw', fontStyle:'italic', paddingRight:'2.2vw'}}>Income and Tax Specialist</span></h1>
             <h2 className="dates" id='bbhdate'>Jan'18-Jun'18</h2>
           </div>
-
+          <img id='aa' src={arrow1} alt="" />
+          <h1 id='clickme'>click me</h1>
           <div className="line" id='line1' data-aos="zoom-out" data-aos-delay="100"/>
           <div className="lineh" id='hlineseatscope' data-aos="fade-left" data-aos-delay="200"/>
           <div className="lineh" id='hlineug' data-aos="fade-right" data-aos-delay="200"/>

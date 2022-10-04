@@ -559,8 +559,24 @@ section{
     text-align: end;
 }
 
+#aa{
+    position: absolute;
+    width: 4vw;
+    top: 87%;
+    left: 51%;
+    rotate: 220deg;
+    transform: scaleX(-1);
+}
+#clickme{
+    position: absolute;
+    top: 92%;
+    left: 55%;
+    font-size: 1.4vw;
+    font-weight: 600;
+    rotate: -10deg;
+    color: #1D3928;
 
-
+}
 
 
 .next{
@@ -586,3 +602,5 @@ section{
       transform: translateY(-4px)
     }
   }
+
+
