@@ -1,0 +1,55 @@
+#hey{
+    margin-left: 10px;
+}
+.slidingVertical{
+    display: inline;
+}
+
+.slidingVertical span{
+    position: relative;
+    white-space: nowrap;
+    top: 0;
+    left: 0;
+    animation: move 12s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes move {
+    0%  { top: 0px; }
+    20% { top: -4.3vw; }
+    40% { top: -8.6vw; }
+    60% { top: -12.9vw; }
+    80% { top: -17.2vw; }
+    }
+
+.slidingVertical {
+    margin-left: 12px;
+    float: right;
+    overflow: hidden;
+    position: relative;
+    height: 4vw;
+}
+
+.asp span{
+    position: relative;
+    white-space: nowrap;
+    top: 0;
+    left: 0;
+    animation: move1 12s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+#leftpls{
+    text-align: left;
+}
+
+
+@keyframes move1 {
+    0%  { top: 0px; }
+    20% { top: -4vw; }
+    40% { top: -8vw; }
+    60% { top: -12vw; }
+    80% { top: -16vw; }
+    }

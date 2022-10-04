@@ -1,0 +1,588 @@
+
+
+/* ----- hero ----- */
+section{
+    height: 67vw;
+    /* border: red solid 2px; */
+    background-color: #FFF1E1;
+
+    /* background-image: linear-gradient(#000, #000);
+    background-size: 1px 100%;
+    background-repeat: no-repeat;
+    background-position: center top 350px; */
+
+}
+.line{
+    position: absolute;
+    background-color: black;
+    width: 1px;
+    top: 35vw;
+    bottom: 0px;
+    left: 50%;
+}
+.medraw{
+    position: absolute;
+    right: 14%;
+    z-index: 1;
+}
+#hey{
+    font-size: 5vw;
+}
+#face{
+    margin-top: 100px;
+    margin-left: 3vw;
+    width: 50vw;
+}
+#name{
+    position: absolute;
+    top: 42%;
+    left: -28%;
+    text-align: end;
+    font-size: 4.3vw;
+    color: #1D3928;
+    z-index: 1000;
+}
+
+/* ----- aspiration ----- */
+#line1{
+    top: 0;
+    bottom: 85%;
+}
+#line2{
+    top: 31%;
+    bottom: 35%;
+}
+#line3{
+    top: 77%;
+    bottom: 0;
+}
+.asptext{
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    width: 50vw;
+}
+
+.asptext h1{
+    position: absolute;
+    top: 42%;
+    left: -25%;
+    text-align: center;
+    font-size: 4vw;
+    color: #1D3928;
+    z-index: 1000;
+}
+.longprocess{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    width: 50vw;
+}
+#process{
+    position: absolute;
+    left: -33%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.4vw;
+    color: #1D3928;
+    z-index: 1000;
+}
+
+/* ----- bio ----- */
+.lineh{
+    content: '';
+    position: absolute;
+    border-top: 1px solid black;
+    background: black;
+    width: 100%;
+}
+/* headshot */
+#hlineheadshot{
+    width: 13%;
+    top: 15%;
+    left: 37.08%;
+}
+/* bio */
+#hlinebio{
+    width: 13%;
+    top: 23%;
+    left: 50%;
+}
+/* northeastern */
+#hlinebachelor{
+    width: 13%;
+    top: 47%;
+    left: 50%;
+}
+
+#line6{
+    top: 23%;
+    bottom: 0%;
+}
+#line7{
+    top: 87%;
+    bottom: 0;
+}
+/* major */
+#lineMajor{
+    top: 48.5%;
+    left: 65%;
+    bottom: 32%;
+}
+#lineMajor1{
+    top: 61.5%;
+    left: 79%;
+    bottom: 34%;
+}
+#hlineMajor{
+    width: 3.3%;
+    top: 61.5%;
+    left: 77%;
+}
+#hlineMajor1{
+    width: 1.3%;
+    top: 66%;
+    left: 79%;
+}
+/* bootcamp */
+#hlinebootcamp{
+    width: 9%;
+    top: 40%;
+    left: 41%;
+}
+#linebootcamp{
+    top: 40%;
+    left: 41%;
+    bottom: 50%;
+}
+/* skills */
+#hlineskills{
+    width: 35%;
+    top: 61%;
+    left: 15%;
+}
+
+/* select */
+#hlineselect{
+    width: 13%;
+    top: 83%;
+    left: 50%;
+}
+
+
+.headshot{
+    height: 20vw;
+    width: 20vw;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    z-index: 100;
+}
+.biotext{
+    position: absolute;
+    top: 20.5%;
+    left: 50%;
+    width: 50vw; 
+}
+.biotext h1{
+    position: absolute;
+    left: 25%;
+    text-align: center;
+    font-size: 2.5vw;
+    color: #1D3928;
+    z-index: 1000;
+}
+#bdates{
+    text-align: end;
+    left: 22%;
+}
+.northeastern{
+    position: absolute;
+    top: 44.5%;
+    left: 50%;
+    width: 50vw;
+}
+#neudates{
+    text-align: end;
+    left: 17.5%;
+}
+#bachelor{
+    position: absolute;
+    left: 27.5%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2vw;
+    color: #1D3928;
+    z-index: 1000;
+}
+#majors{
+    position: absolute;
+    margin-top: 10%;
+    left: 33.5%;
+    text-align: start;
+    font-weight: 700;
+    font-size: 2vw;
+    color: #1D3928;
+    z-index: 1000;
+}
+#concentration{
+    position: absolute;
+    margin-top: 20.7%;
+    left: 62%;
+    text-align: start;
+    line-height: 2.4vw;
+    font-weight: 500;
+    font-size: 1.3vw;
+    font-style: italic;
+    color: #1D3928;
+    z-index: 1000;
+}
+.bootcamp{
+    position: absolute;
+    top: 47%;
+    left: 10%;
+    width: 50vw;
+}
+#ct{
+    position: absolute;
+    left: 28.5%;
+    text-align: start;
+    font-weight: 700;
+    font-size: 2.2vw;
+    color: #1D3928;
+    z-index: 1000;
+}
+#ctdates{
+    text-align: start;
+    top: 37.5%;
+    left: 41%;
+}
+
+.skills{
+    position: absolute;
+    top: 62.5%;
+    left: 8%;
+    font-size: 1vw;
+    color: #1D3928;
+}
+.skills span{
+    font-weight: 700;
+}
+#sk{
+    padding-left: 8vw;
+    font-weight: 100;
+}
+#master{
+    position: absolute;
+    top: 80.5%;
+    left: 64%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2vw;
+    color: #1D3928;
+    z-index: 1000;
+}
+#upenndates{
+    text-align: end;
+    top: 80.5%;
+    left: 60.5%;
+}
+#mylinkedin{
+    position: absolute;
+    color: #96653A;
+    top: 85%;
+    left: 8%;
+    font-weight: 600;
+    font-size: 1.5vw;
+}
+#mylinkedin:hover{
+    color: #BCBC9F;
+}
+#email{
+    position: absolute;
+    color: #96653A;
+    top: 87.5%;
+    left: 8%;
+    font-weight: 400;
+    font-size: 1.3vw;
+}
+/* .select{
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    width: 50vw;
+}
+#pleaseselect{
+    position: absolute;
+    left: -9.5%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5vw;
+    color: #1D3928;
+    z-index: 1000;
+}
+#selectproject{
+    position: absolute;
+    left: -52%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.5vw;
+    color: #96653A;
+    margin-top: 1.3vw;
+    z-index: 1000;
+}
+#selectproject:hover{
+    transform: scale(1.1);
+    transition: 0.1s ease-in-out;
+    color: #D3B99C;
+}
+#selectwork{
+    position: absolute;
+    left: 33%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.5vw;
+    color: #627855;
+    margin-top: 1.3vw;
+    z-index: 1000;
+}
+#selectwork:hover{
+    transform: scale(1.1);
+    transition: 0.1s ease-in-out;
+    color: #BCBC9F;
+} */
+
+/* ----- Work Experience ----- */
+#hlineseatscope{
+    width: 13%;
+    top: 28%;
+    left: 37%;
+}
+#hlineug{
+    width: 13%;
+    top: 36%;
+    left: 50%;
+}
+#hlinemarbo{
+    width: 13%;
+    top: 43%;
+    left: 37%;
+}
+#hlinehomesite{
+    width: 13%;
+    top: 65%;
+    left: 50%;
+}
+#hlinebz{
+    width: 13%;
+    top: 72.5%;
+    left: 37%;
+}
+#hlinebbh{
+    width: 13%;
+    top: 80%;
+    left: 50%;
+}
+#line8{
+    top: 23%;
+    bottom: 47%;
+}
+#line9{
+    top: 61.5%;
+    bottom: 0;
+}
+
+
+.worktitle{
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    width: 50vw; 
+}
+.worktitle h1{
+    position: absolute;
+    left: -24%;
+    text-align: center;
+    font-size: 3vw;
+    color: #1D3928;
+    z-index: 1000;
+}
+.seatscope{
+    position: absolute;
+    top: 25.5%;
+    left: 10%;
+    width: 50vw;
+}
+#seatscopedate{
+    left: 54%;
+    text-align: start;
+}
+#seatscopeinfo{
+    position: absolute;
+    left: 28.5%;
+    text-align: start;
+    font-weight: 700;
+    font-size: 2.3vw;
+    color: #1D3928;
+    z-index: 1000;
+}
+.ug{
+    position: absolute;
+    top: 33.5%;
+    left: 50%;
+    width: 50vw;
+}
+#ugdate{
+    left: 10%;
+    text-align: end;
+}
+#uginfo{
+    position: absolute;
+    left: 7%;
+    text-align: end;
+    font-weight: 700;
+    font-size: 2.3vw;
+    color: #1D3928;
+    z-index: 1000;
+}
+.marbo{
+    position: absolute;
+    top: 40.5%;
+    left: 18%;
+    width: 50vw;
+    color: #1D3928;
+}
+#marbodate{
+    left: 38%;
+    text-align: start;
+}
+#marboinfo{
+    position: absolute;
+    left: 10.5%;
+    text-align: end;
+    font-weight: 700;
+    font-size: 2.1vw;
+    color: #1D3928;
+    z-index: 1000;
+}
+#marboinfo2{
+    position: absolute;
+    margin-top: 4vw;
+    left: 9%;
+    text-align: start;
+    font-weight: 700;
+    font-size: 2.2vw;
+    z-index: 1000;
+}
+.military{
+    position: absolute;
+    top: 54%;
+    left: 34%;
+    width: 50vw;
+    color: #1D3928;
+}
+#militaryinfo{
+    position: absolute;
+    left: 9%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.2vw;
+    color: #96653A;
+    line-height: 2vw;
+    z-index: 1000;
+}
+.hs{
+    position: absolute;
+    top: 62.5%;
+    left: 50%;
+    width: 50vw;
+}
+#hsinfo{
+    position: absolute;
+    left: 27%;
+    text-align: end;
+    font-weight: 700;
+    font-size: 2.2vw;
+    color: #1D3928;
+    z-index: 1000;
+}
+#hsdate{
+    left: 10.5%;
+    text-align: end;
+}
+.dates{
+    position: absolute;
+    color: #1D3928;
+    font-weight: 500;
+    font-size: 1.2vw;
+    font-style: italic;
+}
+.bz{
+    position: absolute;
+    top: 69.7%;
+    left: 10%;
+    width: 50vw;
+}
+#bzdate{
+    left: 54%;
+    text-align: start;
+}
+#bzinfo{
+    position: absolute;
+    left: 19%;
+    text-align: start;
+    font-weight: 700;
+    font-size: 2.3vw;
+    color: #1D3928;
+    z-index: 1000;
+}
+.bbh{
+    position: absolute;
+    top: 77.5%;
+    left: 50%;
+    width: 50vw;
+}
+#bbhinfo{
+    position: absolute;
+    left: 27%;
+    text-align: end;
+    font-weight: 700;
+    font-size: 2.1vw;
+    color: #1D3928;
+    z-index: 1000;
+}
+#bbhdate{
+    left: 10.5%;
+    text-align: end;
+}
+
+
+
+
+
+.next{
+    color:black;
+    position: absolute;
+    top: 93%;
+    left: 49.5%;
+    font-size: 1.2vw;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+}
+.next:hover{
+    transform: scale(1.1);
+    transition: 0.1s ease-in-out;
+    color: #D3B99C;
+}
+
+@keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-4px)
+    }
+  }
