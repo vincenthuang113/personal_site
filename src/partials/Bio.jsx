@@ -1,13 +1,15 @@
 import React from 'react';
 import { Link as AnLink, animateScroll as scroll } from 'react-scroll';
 import me from '../images/medraw.png';
-
+import headshot from '../images/headshot.png';
 import '../css/general.css'
 
 function Bio() {
   return (
     <section id='bio' className="relative">
-          <div className="headshot" data-aos="zoom-out" data-aos-delay="500"></div>
+          <div className="headshot" data-aos="zoom-out" data-aos-delay="500">
+            <img src={headshot} alt="" />
+          </div>
           <div className="biotext">
             <h1 className="h1 font-inter mb-6" data-aos="zoom-out" data-aos-delay="200" style={{lineHeight:'2.8vw'}} >
               Originally from <br/> <span data-aos="zoom-out" data-aos-delay="300" style={{color: '#627855', paddingLeft:'4vw'}}>Taipei, Taiwan</span>

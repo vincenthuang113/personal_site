@@ -173,13 +173,17 @@ section{
 .headshot{
     height: 20vw;
     width: 20vw;
-    background-color: #bbb;
     border-radius: 50%;
+    border: #1D3928 solid 2px;
     display: inline-block;
     position: absolute;
     left: 20%;
     top: 10%;
     z-index: 100;
+    /* background-image: url('images/headshot.png'); */
+}
+.headshot img{
+    height: 100%;
 }
 .biotext{
     position: absolute;
