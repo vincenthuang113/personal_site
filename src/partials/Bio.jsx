@@ -34,6 +34,24 @@ function Bio() {
             <h3 id='concentration' data-aos="zoom-out" data-aos-delay="1000">Finance<br/>Entrepreneurship</h3>
           </div>
           <h2 className="dates" id='ctdates' data-aos="zoom-out" data-aos-delay="300">Mar'22</h2>
+
+          <div className="hes">
+            <h2 id='hes1' style={{textAlign: 'start', lineHeight:'2.3vw'}} data-aos="zoom-out" data-aos-delay="600"> 
+              Harvard University,<br/> 
+              <span style={{paddingLeft:'3vw'}} data-aos="zoom-out" data-aos-delay="700">
+                Extension School
+              </span><br/>
+            </h2>
+              
+          </div>
+
+          <div className="coursework">
+              <h1 id='coursework123' data-aos="zoom-out" data-aos-delay="800">Coursework: Quantitative Finance/Economics,</h1><br/>
+              <h1 id='coursework1' data-aos="zoom-out" data-aos-delay="800">Calculus 2, Discrete Mathematics</h1>
+          </div>
+
+          <h2 className="dates" id='hesdates' data-aos="zoom-out" data-aos-delay="300">Jan'23</h2>
+
           <div className="bootcamp" data-aos="zoom-out" data-aos-delay="700" style={{lineHeight:'2vw'}}>
             <h1 id='ct'>Coding Temple<br/><span style={{fontWeight:'500', fontSize:'1.5vw', fontStyle:'italic', paddingLeft:'2vw'}}>Full-Stack Coding Bootcamp</span></h1>
           </div>
@@ -69,6 +87,10 @@ function Bio() {
           <div className="lineh" id='hlinebachelor' data-aos="fade-right" data-aos-delay="200"/>
           <div className="lineh" id='hlineMajor' data-aos="zoom-out" data-aos-delay="900"/>
           <div className="lineh" id='hlineMajor1' data-aos="zoom-out" data-aos-delay="900"/>
+
+          <div className="lineh" id='hlinehes' data-aos="fade-right" data-aos-delay="200"/>
+
+
           <div className="lineh" id='hlinebootcamp' data-aos="fade-left" data-aos-delay="200"/>
           <div className="line" id='linebootcamp' data-aos="zoom-out" data-aos-delay="600"/>
           <div className="lineh" id='hlineskills' data-aos="zoom-out" data-aos-delay="600"/>
