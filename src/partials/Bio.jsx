@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link as AnLink, animateScroll as scroll } from 'react-scroll';
 import me from '../images/medraw.png';
-import headshot from '../images/headshot.png';
+import headshot from '../images/newshot.jpg';
 import '../css/general.css'
 
 function Bio() {
@@ -50,7 +50,7 @@ function Bio() {
               <h1 id='coursework1' data-aos="zoom-out" data-aos-delay="800">Calculus 2, Discrete Mathematics</h1>
           </div>
 
-          <h2 className="dates" id='hesdates' data-aos="zoom-out" data-aos-delay="300">Jan'23</h2>
+          <h2 className="dates" id='hesdates' data-aos="zoom-out" data-aos-delay="300">May'23</h2>
 
           <div className="bootcamp" data-aos="zoom-out" data-aos-delay="700" style={{lineHeight:'2vw'}}>
             <h1 id='ct'>Coding Temple<br/><span style={{fontWeight:'500', fontSize:'1.5vw', fontStyle:'italic', paddingLeft:'2vw'}}>Full-Stack Coding Bootcamp</span></h1>
@@ -58,7 +58,7 @@ function Bio() {
 
           <div className="skills" data-aos="zoom-out" data-aos-delay="300">
             <h1><span>Coding Skills: </span>
-              Python, JavaScript, TypeScript, HTML, CSS, Flask, React.js, SQL, SAS
+              Python, JavaScript, TypeScript, HTML, CSS, Flask, React.js, SQL, SAS, R
             </h1>
             <h1><span>Computer Skills: </span>
               Microsoft Word, PowerPoint, Excel(VBA), Access, Bloomberg, Tableau<br/>

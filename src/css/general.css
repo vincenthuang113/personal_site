@@ -48,6 +48,10 @@ section{
     top: 0;
     bottom: 85%;
 }
+#line111{
+    top: 0;
+    bottom: 87%;
+}
 #line2{
     top: 31%;
     bottom: 35%;
@@ -177,11 +181,11 @@ section{
 }
 
 
-.headshot{
+.headshot {
     height: 20vw;
     width: 20vw;
     border-radius: 50%;
-    border: #1D3928 solid 2px;
+    /* border: #1D3928 solid 2px; */
     display: inline-block;
     position: absolute;
     left: 20%;
@@ -191,6 +195,10 @@ section{
 }
 .headshot img{
     height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    left: 20%;
+    border: #1D3928 solid 2px;
 }
 .biotext{
     position: absolute;
@@ -405,6 +413,11 @@ section{
 } */
 
 /* ----- Work Experience ----- */
+#hlinesticket{
+    width: 13%;
+    top: 21%;
+    left: 50%;
+}
 #hlineseatscope{
     width: 13%;
     top: 28%;
@@ -436,7 +449,7 @@ section{
     left: 50%;
 }
 #line8{
-    top: 23%;
+    top: 19%;
     bottom: 47%;
 }
 #line9{
@@ -447,7 +460,7 @@ section{
 
 .worktitle{
     position: absolute;
-    top: 16%;
+    top: 13%;
     left: 50%;
     width: 50vw; 
 }
@@ -459,6 +472,27 @@ section{
     color: #1D3928;
     z-index: 1000;
 }
+
+.stick{
+    position: absolute;
+    top: 18.5%;
+    left: 49%;
+    width: 50vw;
+}
+#stickdate{
+    left: 10%;
+    text-align: end;
+}
+#stickinfo{
+    position: absolute;
+    left: 21%;
+    text-align: end;
+    font-weight: 700;
+    font-size: 2.3vw;
+    color: #1D3928;
+    z-index: 1000;
+}
+
 .seatscope{
     position: absolute;
     top: 25.5%;

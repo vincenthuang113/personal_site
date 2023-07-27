@@ -10,10 +10,10 @@ function Aspiration() {
           <div className="asptext">
             <h1 className="h1 font-inter mb-6" data-aos="zoom-out" data-aos-delay="200">
               I <span style={{color:'#BCBC9F'}}>aspire</span> to be<br/> a<div className="slidingVertical asp">
-              <span id='leftpls' style={{color: '#627855', textAlign:'start'}} className="font-italic">  Developer<br/>
+              <span id='leftpls' style={{color: '#627855', textAlign:'start'}} className="font-italic">  Creative<br/>
                Quant<br/>
                Trader<br/>
-               Creative<br/></span>
+               Developer<br/></span>
               </div>
             </h1>
           </div>

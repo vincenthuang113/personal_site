@@ -12,8 +12,12 @@ function Work() {
               Work Experience
             </h1>
           </div>
+          <div className="stick" data-aos="zoom-out" data-aos-delay="300" style={{lineHeight:'2vw'}}>
+            <h1 id='stickinfo'>Sticket<br/><span style={{fontWeight:'500', fontSize:'1.5vw', fontStyle:'italic', paddingRight:'2.2vw'}}>Founder/CEO</span></h1>
+            <h2 className="dates" id='stickdate'>Feb'23-Present</h2>
+          </div>
           <div className="seatscope" data-aos="zoom-out" data-aos-delay="300" style={{lineHeight:'2vw'}}>
-            <h1 id='seatscopeinfo'>SeatScope<br/><span style={{fontWeight:'500', fontSize:'1.5vw', fontStyle:'italic', paddingLeft:'2.2vw'}}>Part-time Software Developer</span></h1>
+            <h1 id='seatscopeinfo'>SeatScope<br/><span style={{fontWeight:'500', fontSize:'1.5vw', fontStyle:'italic', paddingLeft:'2.2vw'}}>PT Web Developer/Research</span></h1>
             <h2 className="dates" id='seatscopedate'>Aug'22-Present</h2>
           </div>
           <div className="ug" data-aos="zoom-out" data-aos-delay="300" style={{lineHeight:'2vw'}}>
@@ -42,7 +46,9 @@ function Work() {
           </div>
           <img id='aa' src={arrow1} alt="" />
           <h1 id='clickme'>click me</h1>
-          <div className="line" id='line1' data-aos="zoom-out" data-aos-delay="100"/>
+          {/* <div className="line" id='line1' data-aos="zoom-out" data-aos-delay="100"/> */}
+          <div className="line" id='line111' data-aos="zoom-out" data-aos-delay="100"/>
+          <div className="lineh" id='hlinesticket' data-aos="fade-right" data-aos-delay="200"/>
           <div className="lineh" id='hlineseatscope' data-aos="fade-left" data-aos-delay="200"/>
           <div className="lineh" id='hlineug' data-aos="fade-right" data-aos-delay="200"/>
           <div className="lineh" id='hlinemarbo' data-aos="fade-left" data-aos-delay="200"/>
