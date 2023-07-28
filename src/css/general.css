@@ -480,15 +480,25 @@ section{
     width: 50vw;
 }
 #stickdate{
-    left: 19%;
+    left: 10%;
     text-align: end;
 }
 #stickinfo{
     position: absolute;
-    left: 5%;
+    left: 21%;
     text-align: end;
     font-weight: 700;
     font-size: 2.3vw;
+    color: #1D3928;
+    z-index: 1000;
+}
+#stickinfo1{
+    position: absolute;
+    padding-top: 3.8vw;
+    left: 25%;
+    text-align: end;
+    font-weight: 700;
+    font-size: 1vw;
     color: #1D3928;
     z-index: 1000;
 }
