@@ -13,7 +13,7 @@ function Work() {
             </h1>
           </div>
           <div className="stick" data-aos="zoom-out" data-aos-delay="300" style={{lineHeight:'2vw'}}>
-            <h1 id='stickinfo'>Sticket<br/><span style={{fontWeight:'500', fontSize:'1.5vw', fontStyle:'italic', paddingRight:'2.2vw'}}>Founder/CEO of a Ticket Brokerage</span></h1>
+            <h1 id='stickinfo'>Sticket<br/><span style={{fontWeight:'500', fontSize:'1.5vw', fontStyle:'italic', paddingRight:'2.2vw'}}>Founder/CEO (Ticket Brokerage)</span></h1>
             <h2 className="dates" id='stickdate'>Feb'23-Present</h2>
           </div>
           <div className="seatscope" data-aos="zoom-out" data-aos-delay="300" style={{lineHeight:'2vw'}}>
