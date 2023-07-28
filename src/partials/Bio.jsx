@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link as AnLink, animateScroll as scroll } from 'react-scroll';
 import me from '../images/medraw.png';
-import headshot from '../images/newshot.JPG';
+import headshot from '../images/newhead.png';
 import '../css/general.css'
 
 function Bio() {
